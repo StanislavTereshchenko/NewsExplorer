@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ArticleDetailsTableViewCellIdn" rowHeight="802" id="KGk-i7-Jjw" customClass="ArticleDetailsTableViewCell" customModule="NewsExplorer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="802"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="802"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmh-T7-xdQ">
+                        <rect key="frame" x="0.0" y="0.0" width="408" height="171"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="171" id="NoL-Ab-vao"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                        <color key="textColor" red="0.47058823529411764" green="0.79607843137254897" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p6A-WN-Ght">
+                        <rect key="frame" x="0.0" y="179" width="408" height="188"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="188" id="LEL-H2-QFe"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfu-TW-Jb7">
+                        <rect key="frame" x="6" y="375" width="396" height="226"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="226" id="NXH-As-gcy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPd-mW-yyH">
+                        <rect key="frame" x="6" y="717" width="396" height="22.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="396" id="4lP-ne-aDe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5AK-A0-xmD">
+                        <rect key="frame" x="6" y="609" width="396" height="95"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="95" id="WMI-D4-Q4A"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                        <color key="textColor" red="0.47058823529999999" green="0.79607843140000001" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PkG-sg-R4W">
+                        <rect key="frame" x="6" y="778" width="42" height="22.5"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lPd-mW-yyH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="5sm-Mu-afg"/>
+                    <constraint firstAttribute="trailing" secondItem="hfu-TW-Jb7" secondAttribute="trailing" constant="6" id="Aj1-fa-bzn"/>
+                    <constraint firstItem="p6A-WN-Ght" firstAttribute="top" secondItem="cmh-T7-xdQ" secondAttribute="bottom" constant="8" id="EI6-A4-5L7"/>
+                    <constraint firstItem="PkG-sg-R4W" firstAttribute="top" secondItem="lPd-mW-yyH" secondAttribute="bottom" constant="38.5" id="F0n-MQ-PUg"/>
+                    <constraint firstItem="hfu-TW-Jb7" firstAttribute="top" secondItem="p6A-WN-Ght" secondAttribute="bottom" constant="8" id="JMn-sj-Mmf"/>
+                    <constraint firstItem="PkG-sg-R4W" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="Jpm-Tf-jxy"/>
+                    <constraint firstItem="5AK-A0-xmD" firstAttribute="top" secondItem="hfu-TW-Jb7" secondAttribute="bottom" constant="8" id="LTC-CT-xvJ"/>
+                    <constraint firstAttribute="bottom" secondItem="PkG-sg-R4W" secondAttribute="bottom" constant="64.5" id="MNS-XE-RXm"/>
+                    <constraint firstAttribute="trailing" secondItem="cmh-T7-xdQ" secondAttribute="trailing" id="REp-LU-WJ4"/>
+                    <constraint firstItem="5AK-A0-xmD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="XzS-MM-Vl6"/>
+                    <constraint firstAttribute="trailing" secondItem="p6A-WN-Ght" secondAttribute="trailing" id="gfr-Ge-80Y"/>
+                    <constraint firstItem="lPd-mW-yyH" firstAttribute="top" secondItem="5AK-A0-xmD" secondAttribute="bottom" constant="13" id="iSt-IC-GKe"/>
+                    <constraint firstItem="cmh-T7-xdQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="m1M-x6-2YC"/>
+                    <constraint firstAttribute="trailing" secondItem="5AK-A0-xmD" secondAttribute="trailing" constant="6" id="myW-o8-6Lr"/>
+                    <constraint firstItem="cmh-T7-xdQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pY8-Jx-MCm"/>
+                    <constraint firstItem="hfu-TW-Jb7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="sUu-Um-T0U"/>
+                    <constraint firstItem="p6A-WN-Ght" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ybq-fV-ZCp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" red="0.086274509799999996" green="0.090196078430000007" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="articleDescriptionLabel" destination="hfu-TW-Jb7" id="scm-uh-Z34"/>
+                <outlet property="articleImageView" destination="p6A-WN-Ght" id="NmF-C8-3U4"/>
+                <outlet property="articleLinkLabel" destination="5AK-A0-xmD" id="KsE-kg-0D8"/>
+                <outlet property="articleTitleLabel" destination="cmh-T7-xdQ" id="0hx-9m-JEq"/>
+                <outlet property="authorAndSourcesLabel" destination="lPd-mW-yyH" id="4p4-TU-vDD"/>
+                <outlet property="bublishedAtLabel" destination="PkG-sg-R4W" id="lZO-0C-WLp"/>
+            </connections>
+            <point key="canvasLocation" x="195.6521739130435" y="26.785714285714285"/>
+        </tableViewCell>
+    </objects>
+</document>
